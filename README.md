@@ -1,2 +1,5 @@
-# acme-checkout-service
-Demo checkout service for showcasing NOVA (pull request triage through MCP). Not a real product.
+# Acme Checkout Service
+
+A small demo checkout service (cart, payments, orders).
+
+> Demo repository for showcasing NOVA's GitHub integration. Not a real product.
