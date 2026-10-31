@@ -5,5 +5,5 @@ export function subtotal(items) {
 
 export function total(items, taxRate = 0.18) {
   const net = subtotal(items);
-  return net + net * taxRate;
+  return Math.round((net + net * taxRate) * 100) / 100;
 }
